@@ -256,6 +256,7 @@
 
 -define(FAILSAFE_SCHEMA_MODS, [
     yamerl_node_str,
+    yamerl_node_binary,
     yamerl_node_seq,
     yamerl_node_map
   ]).
@@ -266,6 +267,7 @@
     yamerl_node_int_json,
     yamerl_node_float_json,
     yamerl_node_str_json,
+    yamerl_node_binary,
     yamerl_node_seq,
     yamerl_node_map
   ]).
@@ -276,6 +278,7 @@
     yamerl_node_int,
     yamerl_node_float,
     yamerl_node_str,
+    yamerl_node_binary,
     yamerl_node_seq,
     yamerl_node_map
   ]).
@@ -286,6 +289,7 @@
     yamerl_node_int_ext,
     yamerl_node_float_ext,
     yamerl_node_str,
+    yamerl_node_binary,
     yamerl_node_seq,
     yamerl_node_map
   ]).
